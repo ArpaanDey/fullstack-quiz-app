@@ -21,8 +21,14 @@ app.use('/api/auth', userRouter);
 app.use('/api/results', resultRouter);
 
 app.get('/', (req, res) => {
-    res.send('api work');
+    res.send({
+        activeStatus:true,
+        error:false,
+    });
 });
+// app.get('/', (req, res) => {
+    
+// });
 
 app.listen(port, () => {
     console.log(`server start from http://localhost:${port}`);
