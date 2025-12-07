@@ -10,7 +10,7 @@ const port = 4000;
 
 // middleware
 app.use(cors({
-    origin: "https://quiz-apparpandey123.netlify.app"
+    origin: "https://quiz-app-arpandey123.netlify.app"
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
