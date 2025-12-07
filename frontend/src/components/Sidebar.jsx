@@ -26,7 +26,7 @@ import {
   Zap,
 } from "lucide-react";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://fullstack-quiz-app-wine.vercel.app";
 function Sidebar() {
   const [selectedTech, setSelectedTech] = useState(null);
   const [selectedLevel, setSelectedLevel] = useState(null);
